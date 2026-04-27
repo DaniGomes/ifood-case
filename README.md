@@ -32,11 +32,12 @@ ifood-case/
 - **Python 3.10+**
 
 ### Instalação Local (Opcional):
-Se quiser executar localmente fora do Databricks, é necessário ter o Spark instalado:
+Se quiser executar localmente fora do Databricks:
 
 ```bash
 pip install -r requirements.txt
 ```
+⚠ Atenção: é necessário ter o Spark instalado!
 
 ---
 
