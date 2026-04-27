@@ -1,0 +1,22 @@
+# .gitignore para o projeto ifood-case
+
+# Dados brutos (não versionar dados sensíveis)
+data/raw/*.json
+
+# Dados processados (arquivos grandes)
+data/processed/*.parquet
+*.parquet
+
+# Checkpoints e cache
+**/.ipynb_checkpoints/
+**/__pycache__/
+*.pyc
+
+# Ambiente virtual
+venv/
+env/
+.env
+
+# Outputs temporários
+*.log
+.DS_Store
